@@ -9,6 +9,7 @@
 | Module | Description |
 |--------|-------------|
 | [langchain models](./langchain%20models/) | LLMs, Chat Models & Embedding Models — OpenAI, Anthropic, Google, HuggingFace |
+| [langchain_prompts](./langchain_prompts/) | PromptTemplates, ChatPrompts, Messages, Placeholders & Streamlit UI |
 
 ---
 
