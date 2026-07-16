@@ -12,6 +12,7 @@
 | [langchain_prompts](./langchain_prompts/) | PromptTemplates, ChatPrompts, Messages, Placeholders & Streamlit UI |
 | [langchain_structured_output](./langchain_structured_output/) | Structured output via Pydantic, TypedDict & JSON Schema |
 | [langchain-output-parsers](./langchain-output-parsers/) | StrOutputParser, JsonOutputParser, PydanticOutputParser & StructuredOutputParser |
+| [langchain-chains](./langchain-chains/) | Simple, Sequential, Parallel & Conditional chains with LCEL |
 
 ---
 
@@ -21,7 +22,7 @@
 - **Prompt Engineering** — Templates, few-shot, output parsers
 - **Structured Output** — Pydantic, TypedDict, JSON Schema with `.with_structured_output()`
 - **Output Parsers** — Str, JSON, Pydantic, Structured — clean chain-ready responses
-- **Chains** — Sequential, parallel, and custom chains
+- **Chains (LCEL)** — Simple, Sequential, Parallel & Conditional pipelines
 - **Memory** — Conversation buffers and summarization
 - **Embeddings & Vector Stores** — Semantic search with FAISS, Chroma
 - **RAG Pipelines** — Retrieval-Augmented Generation end-to-end
