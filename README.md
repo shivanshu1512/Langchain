@@ -11,6 +11,7 @@
 | [langchain models](./langchain%20models/) | LLMs, Chat Models & Embedding Models — OpenAI, Anthropic, Google, HuggingFace |
 | [langchain_prompts](./langchain_prompts/) | PromptTemplates, ChatPrompts, Messages, Placeholders & Streamlit UI |
 | [langchain_structured_output](./langchain_structured_output/) | Structured output via Pydantic, TypedDict & JSON Schema |
+| [langchain-output-parsers](./langchain-output-parsers/) | StrOutputParser, JsonOutputParser, PydanticOutputParser & StructuredOutputParser |
 
 ---
 
@@ -19,6 +20,7 @@
 - **Model Integration** — OpenAI, Hugging Face, Anthropic, Google Gemini, Ollama
 - **Prompt Engineering** — Templates, few-shot, output parsers
 - **Structured Output** — Pydantic, TypedDict, JSON Schema with `.with_structured_output()`
+- **Output Parsers** — Str, JSON, Pydantic, Structured — clean chain-ready responses
 - **Chains** — Sequential, parallel, and custom chains
 - **Memory** — Conversation buffers and summarization
 - **Embeddings & Vector Stores** — Semantic search with FAISS, Chroma
