@@ -13,6 +13,7 @@
 | [langchain_structured_output](./langchain_structured_output/) | Structured output via Pydantic, TypedDict & JSON Schema |
 | [langchain-output-parsers](./langchain-output-parsers/) | StrOutputParser, JsonOutputParser, PydanticOutputParser & StructuredOutputParser |
 | [langchain-chains](./langchain-chains/) | Simple, Sequential, Parallel & Conditional chains with LCEL |
+| [langchain_runnables](./langchain_runnables/) | RunnableSequence, Parallel, Passthrough, Lambda & Branch primitives |
 
 ---
 
@@ -23,6 +24,7 @@
 - **Structured Output** — Pydantic, TypedDict, JSON Schema with `.with_structured_output()`
 - **Output Parsers** — Str, JSON, Pydantic, Structured — clean chain-ready responses
 - **Chains (LCEL)** — Simple, Sequential, Parallel & Conditional pipelines
+- **Runnables** — Core LCEL primitives: Sequence, Parallel, Passthrough, Lambda, Branch
 - **Memory** — Conversation buffers and summarization
 - **Embeddings & Vector Stores** — Semantic search with FAISS, Chroma
 - **RAG Pipelines** — Retrieval-Augmented Generation end-to-end
